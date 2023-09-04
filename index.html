@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia DZ6</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="App">
+        <div class="background-image"></div>
+        <div class="bar-background">
+            <h1 class="cardapio-text">FLASH MENU</h1>
+            <img class="logo" src="https://pps.whatsapp.net/v/t61.24694-24/321242348_226521809729075_2828230363467295346_n.jpg?ccb=11-4&oh=01_AdTT65UmZcuq946c_vF4W9IYRKPBqT4W9n7lRg_8B8gthw&oe=65033399&_nc_cat=107" alt="Logo Pinguim" />
+            <h1 class="title">BARBEARIA DZ6</h1>
+            <div class="bar-separator"></div> <!-- Adiciona a barra de separação -->
+        </div>
+        <div class="buttons-container">
+            <button class="section-button" onclick="scrollToSection('cervejas')">Serviços</button>
+            <button class="section-button" onclick="scrollToSection('petiscos')">Combos</button>
+            <button class="section-button" onclick="scrollToSection('doses')">Produtos</button>
+        </div>
+        <div class="menu-container" onclick="toggleZoom(this)">
+            <div class="container" id="cervejas">
+              <h2 class="section-title">Serviços</h2>
+              <div class="subsections-container">
+                <div class="subsection">
+                  <ul>
+                    <li>
+                      <span class="item-name">Corte</span>
+                      <span class="item-price">R$25,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">Barba</span>
+                      <span class="item-price">R$25,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">Graxa</span>
+                      <span class="item-price">R$25,00</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="subsection">
+                  <ul>
+                    <li>
+                      <span class="item-name">Sobrancelha</span>
+                      <span class="item-price">R$10,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">Pigmentação</span>
+                      <span class="item-price">R$10,00</span>
+                    </li>
+    
+                    <li>
+                      <span class="item-name">Hidratação</span>
+                      <span class="item-price">R$10,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">Limpeza de Pele</span>
+                      <span class="item-price">R$15,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">Progressiva</span>
+                      <span class="item-price">R$40,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">Pezinho</span>
+                      <span class="item-price">R$5,00</span>
+                    </li>
+                    <li>
+                      <span class="item-name">platinado</span>
+                      <span class="item-price">A partir de R$100</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="container" id="petiscos">
+              <h2 class="section-title">Combos</h2>
+              <ul>
+                <li>
+                  <span class="item-name">CORTE + SOBRANCELHA</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">CORTE + BARBA + SOBRANCELHA</span>
+                  <span class="item-price">R$45,00</span>
+                </li>
+                <li>
+                  <span class="item-name">CORTE + PROGRESSIVA</span>
+                  <span class="item-price">R$60,00</span>
+                </li>
+              </ul>
+            </div>
+            <div class="container" id="doses">
+              <h2 class="section-title">Produtos</h2>
+              <ul>
+                <li>
+                  <span class="item-name">Pomada efeito seco</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito brilho</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito teia</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito black</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Pomada efeito neutro</span>
+                  <span class="item-price">R$30,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Balm para barba</span>
+                  <span class="item-price">R$35,00</span>
+                </li>
+                <li>
+                  <span class="item-name">Shampoo anti caspa</span>
+                  <span class="item-price">R$45,00</span>
+                </li>
+                <li>
+                  <span class="item-name">pente</span>
+                  <span class="item-price">R$3,00</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+            <!-- Outras seções de combos e produtos aqui -->
+        </div>
+        <button class="scroll-to-top">Voltar ao topo</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
